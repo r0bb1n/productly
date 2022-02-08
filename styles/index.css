@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    font-family: 'Poppins';
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 78px;
+    width: 1126px;
+    padding: 10px;
+}
+
+.nav-bar__title {
+    display: flex;
+    align-items: baseline;
+    height: 30px;
+}
+
+.nav-bar__right {
+    display: flex;
+    align-items: baseline;
+}
+
+button {
+    border-radius: 5px;
+    margin: 14px;
+    cursor: pointer;
+}
+
+#sign-in {
+    background-color: #FFFFFF;
+    font-family: 'poppins';
+    height: 46px;
+    width: 110px;
+    border-color: #BCD0E5;
+    border-style: solid;
+}
+
+#sign-up {
+    background-color: #FF9900;
+    font-family: 'poppins';
+    color: #FFFFFF;
+    height: 46px;
+    width: 110px;
+    border: none;
+}
+
+.colored-btn {
+    background-color: #FF9900;
+    font-family: 'poppins';
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    width: 175px;
+    height: 53px;
+}
+
+#video {
+    background-color: #FFFFFF;
+    font-family: 'poppins';
+    font-size: 16px;
+    color: #FF9900;
+    border: none;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-bar li {
+    display: inline;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.nav-bar li:hover {
+    text-transform: uppercase;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1126px;
+    margin-bottom: 110px;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: bolder;
+    line-height: 54px;
+}
+
+.card p{
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.card-left {
+    width: 486px;
+    margin-right: 106px;
+}
+
+.card-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1126px;
+    margin-bottom: 110px;
+}
+
+.card-center {
+    display: flex;
+}
+
+.card-container {
+    width: 240px;
+    height: 204px;
+    padding: 40px;
+}
+
+.card li {
+    display: list-item;
+}
+
+.orange {
+    margin-right: 30px;
+}
