@@ -143,10 +143,6 @@ h1 {
     border-width: 1px;
 }
 
-.card-footer:nth-of-type(4) {
-    flex-basis: 325px;
-}
-
 .card-footer__logo {
     display: flex;
     align-self: flex-start;
@@ -167,7 +163,13 @@ h1 {
     align-self: flex-end;
 }
 
-
+input[type=text] {
+    width: 325px;
+    height: 48px;
+    border-radius: 5px;
+    border-color: #BCD0E5;
+    border-style: solid;
+}
 
 #card-footer__btn {
     background-color: #FF9900;
@@ -178,4 +180,5 @@ h1 {
     border: none;
     width: 131px;
     height: 39px;
+    margin-top: 21px;
 }
