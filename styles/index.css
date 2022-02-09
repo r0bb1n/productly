@@ -132,3 +132,37 @@ h1 {
 .orange {
     margin-right: 30px;
 }
+
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    width: 1126px;
+}
+
+.card-footer__logo {
+    align-self: flex-start;
+}
+
+.card-footer__links {
+    align-self: center;
+}
+
+.card-footer__form {
+    display: flex;
+    flex-direction: wrap;
+    width: 325px;
+}
+
+#form {
+    width: 325px;
+}
+
+#card-footer__btn {
+    background-color: #FF9900;
+    font-family: 'poppins';
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    width: 131px;
+    height: 39px;
+}
