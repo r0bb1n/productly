@@ -136,32 +136,45 @@ h1 {
 .card-footer {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     width: 1126px;
+    height: 308px;
+    border-style: solid none none none;
+    border-width: 1px;
+}
+
+.card-footer:nth-of-type(4) {
+    flex-basis: 325px;
 }
 
 .card-footer__logo {
+    display: flex;
     align-self: flex-start;
+    margin-top: 102px;
 }
 
-.card-footer__links {
-    align-self: center;
+.card-footer__links,
+.card-footer__legal {
+    display: flex;
+    align-self: flex-end;
+    line-height: 35px;
 }
 
 .card-footer__form {
     display: flex;
-    flex-direction: wrap;
-    width: 325px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: flex-end;
 }
 
-#form {
-    width: 325px;
-}
+
 
 #card-footer__btn {
     background-color: #FF9900;
     font-family: 'poppins';
     font-size: 16px;
     color: #FFFFFF;
+    border-radius: 5px;
     border: none;
     width: 131px;
     height: 39px;
